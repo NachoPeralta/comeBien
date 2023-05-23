@@ -53,6 +53,8 @@ img.redimencion {
   height: 250px;
 }
 
-.acercaDeBody{
-  background-image: url(../images/ComeBien_18.jpg);
+/********** ACERCA DE **********/
+.acercaDeBody img{  
+  size: 200px;
 }
+
