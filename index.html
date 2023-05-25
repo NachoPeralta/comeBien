@@ -1,308 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
     <!-- LOCAL STYLE -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- ICONO PESTAÑA -->
     <link rel="icon" type="image/x-icon" href="/images/logoFondoVerde.png" />
     <title>Come Bien</title>
-</head>
-<body>
-   
+  </head>
+  <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <!-- BOTÓN HAMBURGUESA -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container-fluid">
-                <!-- LINKS MENU -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- LOGO -->
-                    <a class="logo" href="#">
-                        <img id="imgLogo" src="images/logoFondoTransparente.png" alt="Logo">
-                    </a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/acercaDe.html">ACERCA DE NOSOTROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/promociones.html">PROMOCIONES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <!-- BOTÓN HAMBURGUESA -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+          <!-- LINKS MENU -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- LOGO -->
+            <a class="logo" href="#">
+              <img
+                id="imgLogo"
+                src="images/logoFondoTransparente.png"
+                alt="Logo"
+              />
+            </a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/acercaDe.html"
+                  >ACERCA DE NOSOTROS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/promociones.html"
+                  >PROMOCIONES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="container-fluid">
-        <section class="container-fluid" id="carouselSection">
-            <!-- CAROUSEL -->
-            <div id="carouselPrincipal" class="carousel slide">
-                <!-- IMAGENES -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/carousel1.jpg" class="d-block w-100" alt="Imagen 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/carousel2.jpg" class="d-block w-100" alt="Imagen 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/carousel3.jpg" class="d-block w-100" alt="Imagen 3">
-                    </div>
-                </div>
-                <!-- CONTROLES -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+      <section class="container-fluid" id="carouselSection">
+        <!-- CAROUSEL -->
+        <div id="carouselPrincipal" class="carousel slide">
+          <!-- IMAGENES -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/carousel1.jpg"
+                class="d-block w-100"
+                alt="Imagen 1"
+              />
             </div>
-        </section>
-
-        <!-- SECCIÓN RECOMENDADOS -->
-        <section class="container-fluid" id="recomendados">
-            <div class="container py-5">
-                <!-- FILA -->
-                <div class="row justify-content-center gx-1">
-                    <!-- RECOMENDADO 1 -->
-                    <div class="col-lg-3 d-flex flex-column align-items-center">
-                        <h3>Pack 3x3</h3>
-                        <img class="redimencion" src="/images/3x3pack.jpg" alt="" />                       
-                        
-                            <h4>Valores Nutricionales</h4>
-                            <table class="table table-striped table-dark table-bordered">
-                                <thead class="thead-dark">
-                                  <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Cant/Porcion</th>
-                                    <th scope="col">%VD(*)</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Valor Energético</td>
-                                    <td>146kcal 620kj</td>
-                                    <td>7.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Carbohidratos</td>
-                                    <td>25</td>
-                                    <td>8.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Proteinas</td>
-                                    <td>10</td>
-                                    <td>13</td>
-                                  </tr>
-                                  <tr>
-                                    <td>GrasasTotales</td>
-                                    <td>0.7</td>
-                                    <td>1.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Fibra</td>
-                                    <td>7.1</td>
-                                    <td>28</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Sodio</td>
-                                    <td>22</td>
-                                    <td>0.9</td>
-                                  </tr>
-                                </tbody>
-                              </table>                        
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    </div>
-                    <!-- RECOMENDADO 2 -->
-                    <div class="col-lg-3 d-flex flex-column align-items-center">
-                        <h3>Dips Pack</h3>
-                        <img class="redimencion" src="/images/dipsPack.jpg" alt="" />                        
-                            <h4>Valores Nutricionales</h4>
-                            <table class="table table-striped table-dark table-bordered">
-                                <thead class="thead-dark">
-                                  <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Cant/Porcion</th>
-                                    <th scope="col">%VD(*)</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Valor Energético</td>
-                                    <td>146kcal 620kj</td>
-                                    <td>7.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Carbohidratos</td>
-                                    <td>25</td>
-                                    <td>8.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Proteinas</td>
-                                    <td>10</td>
-                                    <td>13</td>
-                                  </tr>
-                                  <tr>
-                                    <td>GrasasTotales</td>
-                                    <td>0.7</td>
-                                    <td>1.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Fibra</td>
-                                    <td>7.1</td>
-                                    <td>28</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Sodio</td>
-                                    <td>22</td>
-                                    <td>0.9</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    </div>
-                    <!-- RECOMENDADO 3 -->
-                    <div class="col-lg-3 d-flex flex-column align-items-center">
-                        <h3>Garbanzos</h3>
-                        <img class="redimencion" src="/images/hamburgesaGarbanzo.jpg" alt="" />                        
-                            <h4>Valores Nutricionales</h4>
-                            <table class="table table-striped table-dark table-bordered">
-                                <thead class="thead-dark">
-                                  <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Cant/Porcion</th>
-                                    <th scope="col">%VD(*)</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Valor Energético</td>
-                                    <td>146kcal 620kj</td>
-                                    <td>7.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Carbohidratos</td>
-                                    <td>25</td>
-                                    <td>8.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Proteinas</td>
-                                    <td>10</td>
-                                    <td>13</td>
-                                  </tr>
-                                  <tr>
-                                    <td>GrasasTotales</td>
-                                    <td>0.7</td>
-                                    <td>1.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Fibra</td>
-                                    <td>7.1</td>
-                                    <td>28</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Sodio</td>
-                                    <td>22</td>
-                                    <td>0.9</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                         
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    </div>
-                    <!-- RECOMENDADO 4 -->
-                    <div class="col-lg-3 d-flex flex-column align-items-center">
-                        <h3>Hummus de Remolacha</h3>
-                        <img class="redimencion" src="/images/hummusRemolacha.jpg" alt="" />                        
-                            <h4>Valores Nutricionales</h4>
-                            <table class="table table-striped table-dark table-bordered">
-                                <thead class="thead-dark">
-                                  <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Cant/Porcion</th>
-                                    <th scope="col">%VD(*)</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Valor Energético</td>
-                                    <td>146kcal 620kj</td>
-                                    <td>7.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Carbohidratos</td>
-                                    <td>25</td>
-                                    <td>8.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Proteinas</td>
-                                    <td>10</td>
-                                    <td>13</td>
-                                  </tr>
-                                  <tr>
-                                    <td>GrasasTotales</td>
-                                    <td>0.7</td>
-                                    <td>1.3</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Fibra</td>
-                                    <td>7.1</td>
-                                    <td>28</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Sodio</td>
-                                    <td>22</td>
-                                    <td>0.9</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                         
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="./images/carousel2.jpg"
+                class="d-block w-100"
+                alt="Imagen 2"
+              />
             </div>
-        </section>
+            <div class="carousel-item">
+              <img
+                src="./images/carousel3.jpg"
+                class="d-block w-100"
+                alt="Imagen 3"
+              />
+            </div>
+          </div>
+          <!-- CONTROLES -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
 
+      <!-- SECCIÓN RECOMENDADOS -->
+      <section class="container-fluid" id="recomendados">
+        <div class="container py-5">
+          <!-- FILA -->
+          <div class="row justify-content-center gx-1">
+            <!-- RECOMENDADO 1 -->
+            <div class="col-lg-3 d-flex flex-column align-items-center">
+              <h3>Pack 3x3</h3>
+              <img class="redimencion" src="/images/3x3pack.jpg" alt="" />
 
+              <h4>Valores Nutricionales</h4>
+              <table class="table table-striped table-dark table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Cant/Porcion</th>
+                    <th scope="col">%VD(*)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Valor Energético</td>
+                    <td>146kcal 620kj</td>
+                    <td>7.3</td>
+                  </tr>
+                  <tr>
+                    <td>Carbohidratos</td>
+                    <td>25</td>
+                    <td>8.3</td>
+                  </tr>
+                  <tr>
+                    <td>Proteinas</td>
+                    <td>10</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>GrasasTotales</td>
+                    <td>0.7</td>
+                    <td>1.3</td>
+                  </tr>
+                  <tr>
+                    <td>Fibra</td>
+                    <td>7.1</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>Sodio</td>
+                    <td>22</td>
+                    <td>0.9</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
+            <!-- RECOMENDADO 2 -->
+            <div class="col-lg-3 d-flex flex-column align-items-center">
+              <h3>Dips Pack</h3>
+              <img class="redimencion" src="/images/dipsPack.jpg" alt="" />
+              <h4>Valores Nutricionales</h4>
+              <table class="table table-striped table-dark table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Cant/Porcion</th>
+                    <th scope="col">%VD(*)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Valor Energético</td>
+                    <td>146kcal 620kj</td>
+                    <td>7.3</td>
+                  </tr>
+                  <tr>
+                    <td>Carbohidratos</td>
+                    <td>25</td>
+                    <td>8.3</td>
+                  </tr>
+                  <tr>
+                    <td>Proteinas</td>
+                    <td>10</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>GrasasTotales</td>
+                    <td>0.7</td>
+                    <td>1.3</td>
+                  </tr>
+                  <tr>
+                    <td>Fibra</td>
+                    <td>7.1</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>Sodio</td>
+                    <td>22</td>
+                    <td>0.9</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
+            <!-- RECOMENDADO 3 -->
+            <div class="col-lg-3 d-flex flex-column align-items-center">
+              <h3>Garbanzos</h3>
+              <img
+                class="redimencion"
+                src="/images/hamburgesaGarbanzo.jpg"
+                alt=""
+              />
+              <h4>Valores Nutricionales</h4>
+              <table class="table table-striped table-dark table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Cant/Porcion</th>
+                    <th scope="col">%VD(*)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Valor Energético</td>
+                    <td>146kcal 620kj</td>
+                    <td>7.3</td>
+                  </tr>
+                  <tr>
+                    <td>Carbohidratos</td>
+                    <td>25</td>
+                    <td>8.3</td>
+                  </tr>
+                  <tr>
+                    <td>Proteinas</td>
+                    <td>10</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>GrasasTotales</td>
+                    <td>0.7</td>
+                    <td>1.3</td>
+                  </tr>
+                  <tr>
+                    <td>Fibra</td>
+                    <td>7.1</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>Sodio</td>
+                    <td>22</td>
+                    <td>0.9</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
+            <!-- RECOMENDADO 4 -->
+            <div class="col-lg-3 d-flex flex-column align-items-center">
+              <h3>Hummus de Remolacha</h3>
+              <img
+                class="redimencion"
+                src="/images/hummusRemolacha.jpg"
+                alt=""
+              />
+              <h4>Valores Nutricionales</h4>
+              <table class="table table-striped table-dark table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Cant/Porcion</th>
+                    <th scope="col">%VD(*)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Valor Energético</td>
+                    <td>146kcal 620kj</td>
+                    <td>7.3</td>
+                  </tr>
+                  <tr>
+                    <td>Carbohidratos</td>
+                    <td>25</td>
+                    <td>8.3</td>
+                  </tr>
+                  <tr>
+                    <td>Proteinas</td>
+                    <td>10</td>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <td>GrasasTotales</td>
+                    <td>0.7</td>
+                    <td>1.3</td>
+                  </tr>
+                  <tr>
+                    <td>Fibra</td>
+                    <td>7.1</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>Sodio</td>
+                    <td>22</td>
+                    <td>0.9</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ubicacion">
+        <h3>Encontranos Aqui</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4998.655196557166!2d-54.79386351298848!3d-34.891871047954325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDUzJzI1LjAiUyA1NMKwNDcnMzQuMiJX!5e0!3m2!1ses!2suy!4v1683120800700!5m2!1ses!2suy"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </main>
 
     <footer>
-
-
+      <div class="copyright">
+        <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
+      </div>
     </footer>
 
-     <!-- SCRIPTS BOOTSTRAP -->
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-     crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-     integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-     crossorigin="anonymous"></script>
-
-</body>
+    <!-- SCRIPTS BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

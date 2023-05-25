@@ -46,6 +46,8 @@
 #recomendados {
   background-color: #212529;
   color: antiquewhite;
+  font-family: Margarine, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
 }
 
 /*REDIMENCION IMG RECOMENDADOS **********/
@@ -53,8 +55,27 @@ img.redimencion {
   height: 250px;
 }
 
+/******* ENCONTRANOS AQUI ********/
+.ubicacion {
+  position: relative;
+  text-align: center;
+  padding-bottom: 80px;
+  font-family: Margarine, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: #212529;
+}
+
+/******** FOOTER *******/
+.copyright{
+  background-color: #212529;
+  color: antiquewhite;
+  font-size: 15px;
+}
+
+
 /********** ACERCA DE **********/
-.acercaDeBody img{  
-  size: 200px;
+.acercaDeBody p{  
+  font-size: 20px;
 }
 
