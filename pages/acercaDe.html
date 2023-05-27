@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ICONO PESTANA -->
-    <link rel="icon" type="image/x-icon" href="/images/logoFondoVerde.png" />
     <!-- BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -16,6 +14,9 @@
     />
     <!-- LOCAL STYLE -->
     <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- ICONO PESTAÑA -->
+    <link rel="icon" type="image/x-icon" href="/images/logoFondoVerde.png" />
 
     <title>Acerca De</title>
   </head>
@@ -47,25 +48,21 @@
             </a>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >INICIO</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/acercaDe.html"
-                  >ACERCA DE NOSOTROS</a
-                >
+                <a class="nav-link" href="acercaDe.html">ACERCA DE NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/promociones.html"
-                  >PROMOCIONES</a
-                >
+                <a class="nav-link" href="promociones.html">PROMOCIONES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -73,39 +70,41 @@
       </nav>
     </header>
 
-    <div class="acercaDeBody container-fluid">
-      <div class="row align-items-center text-center">
-        <div class="col"></div>
-        <div class="col">
-          <h1>Acerca de Nosotros</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            possimus totam vero assumenda et quidem sit fugit illum
-            necessitatibus corrupti enim aspernatur, fuga unde iure, mollitia
-            facere nulla ea neque! Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Architecto ullam reprehenderit ad, ea in eos
-            cumque numquam id quaerat beatae, iure at assumenda accusamus
-            laudantium, velit et obcaecati est illo? Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Repellendus officia consequuntur cum
-            ullam nesciunt, cumque doloremque laboriosam, quis nobis vero saepe
-            culpa suscipit voluptatum sit quibusdam iusto eaque incidunt.
-            Doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Labore numquam, excepturi placeat maxime nisi, fugit distinctio
-            aperiam quo, perferendis explicabo ullam architecto. Amet dolor
-            quibusdam officia at fugiat alias ad?
-          </p>
+    <main>
+      <div class="acercaDeBody container-fluid">
+        <div class="row align-items-center text-center">
+          
+          <div class="col"></div>
+            <div class="col acercaDeImageContainer">
+              <img
+                id="backgroundAcercaDe"
+                src="../images/ComeBien_18.jpg"
+                alt="Imagen de fondo"
+                class="img-fluid opacity-25 position-absolute col"
+              />            
+            <h1>Acerca de Nosotros</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium possimus totam vero assumenda et quidem sit fugit
+              illum necessitatibus corrupti enim aspernatur, fuga unde iure,
+              mollitia facere nulla ea neque! Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Architecto ullam reprehenderit ad,
+              ea in eos cumque numquam id quaerat beatae, iure at assumenda
+              accusamus laudantium, velit et obcaecati est illo? Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Repellendus officia
+              consequuntur cum ullam nesciunt, cumque doloremque laboriosam,
+              quis nobis vero saepe culpa suscipit voluptatum sit quibusdam
+              iusto eaque incidunt. Doloribus? Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Labore numquam, excepturi placeat
+              maxime nisi, fugit distinctio aperiam quo, perferendis explicabo
+              ullam architecto. Amet dolor quibusdam officia at fugiat alias ad?
+            </p>
+          </div>
+          <div class="col"></div>
         </div>
-        <div class="col"></div>
-        <img
-            id="backgroundAcercaDe"
-            src="../images/ComeBien_18.jpg"
-            alt="Imagen de fondo"
-            class="img-fluid opacity-25 position-absolute"
-          />
       </div>
-    </div>
+    </main>
   </body>
-
   <footer>
     <div class="copyright opacity-50 position-relative">
       <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
