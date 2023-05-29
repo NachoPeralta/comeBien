@@ -21,7 +21,7 @@
     <title>Acerca De</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="menuPrincipal container-fluid">
       <nav class="navbar navbar-expand-lg bg-dark">
         <!-- BOTÓN HAMBURGUESA -->
         <button
@@ -39,7 +39,7 @@
           <!-- LINKS MENU -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- LOGO -->
-            <a class="logo" href="#">
+            <a class="logo" href="../index.html">
               <img
                 id="imgLogo"
                 src="../images/logoFondoTransparente.png"
@@ -71,68 +71,62 @@
     </header>
 
     <main>
-      <div class="formularioContacto container-fluid">
-        <div class="row align-items-center text-center">
-          <div class="col"></div>
-          <div class="position-static text-md-start">
-            <h2>Formulario de contacto</h2>
-            <form action="" method="post">
-              <div class="mb-3">
-                <label for="formNmobre" class="form-label">Nombre</label>
-                <input
-                  type="name"
-                  class="form-control"
-                  id="formNmobre"
-                  placeholder="Ingrese su Nombre"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formEmail" class="form-label">Correo</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="formEmail"
-                  placeholder="nombre@ejemplo.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formTextArea" class="form-label">Mensaje</label>
-                <textarea
-                  class="form-control"
-                  id="formTextArea"
-                  rows="3"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                name="enviar_formulario"
-                class="btn btn-dark"
-              >
-                <p>Enviar</p>
-              </button>
-            </form>
-            <div class="col"></div>
-          </div>
+      <div class="formularioContacto d-flex">
+        <div class="col-4"></div>
+        <div class="col-4 text-md-start">
+          <h2>Formulario de contacto</h2>
+          <form action="" method="post">
+            <div class="mb-3">
+              <label for="formNmobre" class="form-label">Nombre</label>
+              <input
+                type="name"
+                class="form-control"
+                id="formNmobre"
+                placeholder="Ingrese su Nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formEmail" class="form-label">Correo</label>
+              <input
+                type="email"
+                class="form-control"
+                id="formEmail"
+                placeholder="nombre@ejemplo.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formTextArea" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="formTextArea"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" name="enviar_formulario" class="btn btn-dark">
+              <p>Enviar</p>
+            </button>
+          </form>
         </div>
+        <div class="col-4"></div>
       </div>
     </main>
+
+    <footer>
+      <div class="copyright">
+        <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
-  <footer>
-    <div class="copyright opacity-50 position-relative">
-      <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
-    </div>
-  </footer>
-
-  <!-- SCRIPTS BOOTSTRAP -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-    crossorigin="anonymous"
-  ></script>
 </html>

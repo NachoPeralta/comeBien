@@ -1,56 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/styles.css" />
-        <link rel="icon" type="image/x-icon" href="/images/logoFondoVerde.png" />
-        <title>Acerca De</title>
-      </head>
-      <body>
-        <div class="contenedorAcerdaDe">
-          <div class="logo">
-            <a href="../index.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- LOCAL STYLE -->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- ICONO PESTAÑA -->
+    <link rel="icon" type="image/x-icon" href="/images/logoFondoVerde.png" />
+
+    <title>Promociones</title>
+  </head>
+  <body>
+    <header class="menuPrincipal container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <!-- BOTÓN HAMBURGUESA -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+          <!-- LINKS MENU -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- LOGO -->
+            <a class="logo" href="../index.html">
               <img
-                src="../images/logoFondoVerde.png"
-                alt="Logo de la marca"
-                style="width: 100px; height: 100px"
+                id="imgLogo"
+                src="../images/logoFondoTransparente.png"
+                alt="Logo"
               />
             </a>
-          </div>
-          <div>
-            <img
-              id="portada"
-              src="../images/portada2.jpg"
-              alt="Portada de la pagina inicial"
-            />
-          </div>
-    
-          <div>
-            <nav id="menu">
-              <ul>
-                <a href="../index.html">Inicio</a>
-                <a href="acercaDe.html">Acerca de</a>
-                <a href="promociones.html">Promociones</a>
-                <a href="productos.html">Productos</a>
-                <a href="contacto.html">Contacto</a>
-              </ul>
-            </nav>
-          </div>
-    
-          <div class="promocionesBody">
-            <h1>Nuestras Promociones</h1>
-            <p>
-              Esta sección esta en construcción
-            </p>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acercaDe.html">ACERCA DE NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promociones.html">PROMOCIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </body>
+      </nav>
+    </header>
 
-      <footer>
-        <div>
-          <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
-        </div>
-      </footer>
-    </html>
+    <div class="promocionesBody">
+      <h3>Nuestras Promociones</h3>
+      <p>Esta sección esta en construcción</p>
+    </div>
+  </body>
+
+  <footer>
+    <div class="copyright">
+      <p>©Copyright 2050 de nadie. Todos los derechos son de todos.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS BOOTSTRAP -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"
+  ></script>
+</html>

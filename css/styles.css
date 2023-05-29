@@ -27,6 +27,12 @@
 
 .navbar-toggler-icon {
   color: #fff !important;
+  background-color: lightgray
+}
+
+.menuPrincipal{
+  position: relative; 
+  z-index: 1; 
 }
 
 /*************** CAROUSEL ***************/
@@ -41,7 +47,7 @@
   height: 450px;
 }
 
-/******* SECCIÓN 3 RECOMENDADOS ********/
+/******* SECCIÓN RECOMENDADOS ********/
 
 #recomendados {
   background-color: #212529;
@@ -49,8 +55,13 @@
   font-family: Margarine, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
+#recomendados h3 {
+  text-align: center;
+  padding-top: 50px;
+}
 
-/*REDIMENCION IMG RECOMENDADOS **********/
+/**** REDIMENCION IMG RECOMENDADOS ****/
+
 img.redimencion {
   height: 250px;
 }
@@ -69,8 +80,13 @@ img.redimencion {
 /******** FOOTER *******/
 .copyright{
   background-color: #212529;
-  color: antiquewhite;
+  color: white;
   font-size: 15px;
+}
+
+/***** PRODUCTOS *****/
+.imagenProducto{
+  width: 100px;  
 }
 
 
@@ -82,6 +98,7 @@ img.redimencion {
   position: relative; 
   height: 100%;
   padding-top: 100px;
+  padding-bottom: 200px;
   
 }
 #backgroundAcercaDe{
@@ -94,5 +111,18 @@ img.redimencion {
 }
   
 
+/***** PRODUCTOS *****/
+#productos{
+  background-color: #212529;
+}
+
+/****** FORMULARIO CONTACTO ******/
+
+.formularioContacto{
+  padding-top: 20px;
+  padding-bottom: 200px;
+  background-color: #212529;
+  color: whitesmoke;
+}
 
 
