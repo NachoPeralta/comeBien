@@ -1,0 +1,48 @@
+/*************** RESET BÁSICO ***************/
+* {
+  margin: 0;
+  padding: 0;
+}
+@import "./variables";
+@import "./acercaDe";
+@import "./contacto";
+@import "./index";
+@import "./productos";
+@import "./promociones";
+
+/*************** CONTAINER FLUID SIN GUTTER EN X ***************/
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+/*************** HEADER ***************/
+
+#imgLogo {
+  height: 100px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.collapse {
+  justify-content: space-between;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+  background-color: lightgray;
+}
+
+.menuPrincipal {
+  position: relative;
+  z-index: 1;
+}
+
+/******** FOOTER *******/
+.copyright {
+  background-color: $fondo-color;
+  color: $texto-parrafos-color;
+  font-size: 15px;
+}
