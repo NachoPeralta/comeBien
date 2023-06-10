@@ -1,3 +1,4 @@
+@import "./mixin";
 /****** FORMULARIO CONTACTO ******/
 
 .formularioContacto{
@@ -5,5 +6,7 @@
     padding-bottom: 200px;
     background-color: $fondo-color;
     color: $texto-titulos-color;
+
+    @include formContactoFromTop;
   }
   

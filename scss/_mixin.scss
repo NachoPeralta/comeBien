@@ -1,0 +1,23 @@
+@mixin animacionIcono($scale-factor) {
+  &:hover {
+    transform: scale($scale-factor);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+@mixin formContactoFromTop {
+  animation: slideInTop 2s ease-in-out;
+  animation-fill-mode: both;
+
+  @keyframes slideInTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+

@@ -9,6 +9,7 @@
 @import "./index";
 @import "./productos";
 @import "./promociones";
+@import "./mixin";
 
 /*************** CONTAINER FLUID SIN GUTTER EN X ***************/
 
@@ -20,6 +21,12 @@
 
 #imgLogo {
   height: 100px;
+  
+  padding: 10px;
+  border-radius: 5px;
+
+  @include animacionIcono(1.5);
+
 }
 
 .nav-link {
