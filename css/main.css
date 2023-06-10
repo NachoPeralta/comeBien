@@ -119,6 +119,40 @@ img.redimencion {
   background-color: #212529;
 }
 
+.promocionesBody {
+  background-color: #212529;
+}
+
+.slideInFromLeft {
+  animation: slideInLeft 2s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideInFromRight {
+  animation: slideInRight 2s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /*************** CONTAINER FLUID SIN GUTTER EN X ***************/
 .container-fluid {
   --bs-gutter-x: 0;

@@ -36,3 +36,35 @@
     }
   }
 }
+
+@mixin slideInFromLeft {
+  animation: slideInLeft 2s ease-in-out;
+  animation-fill-mode: both;
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+
+@mixin slideInFromRight {
+  animation: slideInRight 2s ease-in-out;
+  animation-fill-mode: both;
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}

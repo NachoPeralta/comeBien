@@ -1,0 +1,13 @@
+@import "../scss/mixin";
+
+.promocionesBody{
+    background-color: $fondo-color;    
+}
+
+.slideInFromLeft{
+    @include slideInFromLeft;
+}
+
+.slideInFromRight{
+    @include slideInFromRight;
+}
