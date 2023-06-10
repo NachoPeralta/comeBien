@@ -1,6 +1,10 @@
+@import "./mixin";
+
 /********** ACERCA DE **********/
 .acercaDeBody p{  
     font-size: 20px;
+    @include fromBottomToTop;
+
   }
   .acercaDeImageContainer {
     position: relative; 

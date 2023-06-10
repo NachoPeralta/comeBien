@@ -8,6 +8,18 @@
 /********** ACERCA DE **********/
 .acercaDeBody p {
   font-size: 20px;
+  animation: slideInBottom 2s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .acercaDeImageContainer {

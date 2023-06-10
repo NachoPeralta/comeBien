@@ -21,3 +21,18 @@
   }
 }
 
+@mixin fromBottomToTop {
+  animation: slideInBottom 2s ease-in-out;
+  animation-fill-mode: both;
+
+  @keyframes slideInBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
