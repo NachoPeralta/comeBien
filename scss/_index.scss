@@ -2,11 +2,13 @@
 
 #carouselSection {
   width: 100%;
-  height: 30%;
+  height: auto;
+  max-height: 100%;
 }
 
 .carousel-inner img {
-  height: 450px;
+  width: 100%;
+  height: auto;
 }
 
 /******* SECCIÓN RECOMENDADOS ********/

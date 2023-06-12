@@ -8,6 +8,8 @@
 /********** ACERCA DE **********/
 .acercaDeBody p {
   font-size: 20px;
+  line-height: 1.5;
+  padding: 0 20px;
   animation: slideInBottom 2s ease-in-out;
   animation-fill-mode: both;
 }
@@ -62,11 +64,13 @@
 /*************** CAROUSEL ***************/
 #carouselSection {
   width: 100%;
-  height: 30%;
+  height: auto;
+  max-height: 100%;
 }
 
 .carousel-inner img {
-  height: 450px;
+  width: 100%;
+  height: auto;
 }
 
 /******* SECCIÓN RECOMENDADOS ********/
