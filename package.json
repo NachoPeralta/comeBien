@@ -1,0 +1,15 @@
+{
+  "name": "comebien",
+  "version": "1.0.0",
+  "description": "proyecto Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nachoperalta.github.io/comeBien/"
+  },
+  "author": "Nacho Peralta",
+  "license": "ISC"
+}
