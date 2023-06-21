@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 @import "./variables";
 @import "./acercaDe";
 @import "./contacto";
@@ -52,4 +53,5 @@
   background-color: $fondo-color;
   color: $texto-parrafos-color;
   font-size: 15px;
+  position: static;
 }
