@@ -1,12 +1,32 @@
 @import "./mixin";
 /****** FORMULARIO CONTACTO ******/
 
-.formularioContacto{
-    padding-top: 20px;
-    padding-bottom: 200px;
-    background-color: $fondo-color;
-    color: $texto-titulos-color;
-
-    @include formContactoFromTop;
+.formularioContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  label {
+    text-align: left;
   }
-  
+}
+
+@media (max-width: 767px) {
+  .formularioContacto {
+    display: flex;
+
+    height: 100vh;
+  }
+  .col-4 {
+    width: 100%; /* para que el formulario ocupe todo el ancho disponible */
+  }
+}
+
+.formularioContacto {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: $fondo-color;
+  color: $texto-titulos-color;
+
+  @include formContactoFromTop;
+}
